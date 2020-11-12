@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.celeste {
+    background: #108800;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.celeste.light {
+    background: #3eda00;
+}
+
+.violeta {
+    background: #b30000;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.violeta.light {
+    background: #ff0000;
+}
+
+.naranja {
+    background: #caac00;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+}
+
+.naranja.light {
+    background: #ffef0b;
+}
+
+.verde {
+    background: #0003a1;
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+}
+
+.verde.light {
+    background: #0004ff;
+}
+
+.btn-start {
+    width: 150px;
+    height: 150px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 2rem;
+    border: none;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    border-radius: 50%;
+}
+.center{
+    width: 150px;
+    height: 150px;
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    border-radius: 50%; 
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 9rem;
+}
+
+.hide {
+    display: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
